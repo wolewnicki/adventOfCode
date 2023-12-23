@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Solutions.Year2023.Day1
+      Solutions.Year2023.Day2
   other-modules:
       Paths_adventOfCode
   autogen-modules:
@@ -36,6 +37,7 @@ library
   build-depends:
       base >=4.7 && <5
     , directory
+    , split >=0.2.4 && <0.3
   default-language: Haskell2010
 
 executable adventOfCode-exe
@@ -51,6 +53,7 @@ executable adventOfCode-exe
       adventOfCode
     , base >=4.7 && <5
     , directory
+    , split >=0.2.4 && <0.3
   default-language: Haskell2010
 
 test-suite adventOfCode-test
@@ -67,4 +70,5 @@ test-suite adventOfCode-test
       adventOfCode
     , base >=4.7 && <5
     , directory
+    , split >=0.2.4 && <0.3
   default-language: Haskell2010

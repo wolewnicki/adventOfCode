@@ -45,7 +45,7 @@ numberWords =
   ]
 
 numbers :: [String]
-numbers = map show [1..9]
+numbers = map show [1..9 :: Integer]
 
 
 numberWordToDigit :: String -> String
