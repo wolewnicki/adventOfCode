@@ -1,6 +1,7 @@
 module Main (main) where
 
 import qualified Solutions.Year2023.Day1 as Day1
+import qualified Solutions.Year2024.Day1 as Year2024.Day1
 -- import qualified Solutions.Year2023.Day2 as Day2
 
 main :: IO ()
@@ -9,6 +10,7 @@ main = do
   putStrLn ""
 
   doDay 2023 1 Day1.problem1 Day1.problem2
+  doDay 2024 1 Year2024.Day1.problem1 Year2024.Day1.problem2
   -- doDay 2023 2 Day2.problem1 Day2.problem2
 
   putStrLn "End Solutions"
