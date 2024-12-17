@@ -19,8 +19,8 @@ parseInput = (map . map) readInt
 
 zipLists :: [[a]] -> [(a, a)]
 zipLists (xs:ys:_) = zip xs ys
-zipLists [_]         = []
-zipLists []          = []
+zipLists [_]       = []
+zipLists []        = []
 
 calculateSimularityScore :: [[Int]] -> Int
 calculateSimularityScore (xs:ys:_) = sum similarityScores
